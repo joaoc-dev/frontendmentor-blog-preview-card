@@ -1,0 +1,3 @@
+footer a:is(:hover, :focus) {
+    color: var(--color-white);
+}

@@ -1,0 +1,47 @@
+.h-screen {
+    height: 100vh;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-32px {
+    width: 32px;
+}
+
+.max-w-375px {
+    max-width: 375px;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-rows-sticky-footer {
+    grid-template-rows: 1fr auto;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-end {
+    align-self: end;
+}

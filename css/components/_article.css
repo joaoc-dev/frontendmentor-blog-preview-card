@@ -1,0 +1,5 @@
+.article-link:is(:hover, :focus) {
+    .article-title {
+        color: var(--color-yellow);
+    }
+}
