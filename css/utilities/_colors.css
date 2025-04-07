@@ -1,0 +1,19 @@
+.bg-yellow { 
+    background-color: var(--color-yellow); 
+}
+
+.bg-white { 
+    background-color: var(--color-white); 
+}
+
+.text-white {
+    color: var(--color-white);
+}
+
+.text-gray-500 {
+    color: var(--color-gray-500);
+}
+
+.text-gray-950 {
+    color: var(--color-gray-950);
+}

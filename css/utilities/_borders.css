@@ -1,0 +1,24 @@
+.rounded-sm {
+    border-radius: var(--border-radius-sm);
+}
+
+.rounded-md {
+    border-radius: var(--border-radius-md);
+}
+
+.rounded-lg {
+    border-radius: var(--border-radius-lg);
+}
+
+.rounded-full {
+    border-radius: var(--border-radius-full);
+}
+
+.border {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.border-gray-950 {
+    border-color: var(--color-gray-950);
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta name="description" content="Solution for the blog preview card challenge from Frontend Mentor">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body class="grid grid-rows-sticky-footer h-screen bg-yellow font-figtree leading-default">
+
+    <main class="align-self-center justify-self-center main-spacing">
+      <!-- Article Card -->
+      <article class="bg-white border border-gray-950 rounded-lg p-3 shadow-card max-w-375px">
+        <!-- Article Link Wrapper -->
+        <a href="#" class="article-link inline-block mb-2 text-decoration-none">
+          <!-- Article Image -->
+          <img class="w-full rounded-md mb-2" src="./assets/images/illustration-article.svg" alt="illustration">
+
+          <!-- Article Content -->
+          <div class="grid gap-1">
+            <!-- Article Tags -->
+            <div>
+              <span class="bg-yellow inline-block px-2 py-1 rounded-sm fs-sm fw-extrabold text-gray-950">
+                Learning
+              </span>
+            </div>
+
+            <!-- Article published date -->
+            <p class="fs-sm text-gray-950">
+              Published 21 Dec 2023
+            </p>
+
+            <!-- Article title -->
+            <h2 class="article-title fs-lg fw-extrabold text-gray-950">
+              HTML & CSS foundations
+            </h2>
+
+            <!-- Article description -->
+            <p class="fs-base text-gray-500">
+              These languages are the backbone of every website, defining structure, content, and presentation.
+            </p>
+          </div>
+        </a>
+        
+        <!-- Article author -->
+        <div class="flex align-items-center gap-1">
+          <img class="w-32px rounded-full" src="./assets/images/image-avatar.webp" alt="avatar">
+          <p class="fw-extrabold">Greg Hooper</p>
+        </div>
+      </article>
+    </main>
+
+    <footer class="fs-xs text-gray-950 justify-self-center text-center">
+      <p>
+        Coded by 
+        <a class="text-gray-500" href="https://www.joao-carvalho.dev/" target="_blank">
+          joaoc-dev
+        </a>.
+      </p>
+      <p>
+        Challenge by 
+        <a class="text-gray-500" href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>.
+      </p>
+    </footer>
+
+  </body>
+</html>
