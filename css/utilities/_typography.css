@@ -18,12 +18,31 @@
     font-size: 1.4rem;
 }
 
+.fs-xs-sm-fluid {
+    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 2vw, 1.4rem);
+}
+
 .fs-base {
     font-size: 1.6rem;
 }
 
+.fs-sm-base-fluid {
+    font-size: 1.4rem;
+    font-size: clamp(1.4rem, 2vw, 1.6rem);
+}
+
+.fs-md {
+    font-size: 2rem;
+}
+
 .fs-lg {
     font-size: 2.4rem;
+}
+
+.fs-md-lg-fluid {
+    font-size: 2rem;
+    font-size: clamp(2rem, 2vw, 2.4rem);
 }
 
 .leading-default { 

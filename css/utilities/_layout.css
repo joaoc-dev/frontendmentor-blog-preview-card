@@ -14,6 +14,11 @@
     max-width: 375px;
 }
 
+.max-w-fluid {
+    max-width: 384px;
+    max-width: clamp(327px, 30vw, 384px);
+}
+
 .flex {
     display: flex;
 }
