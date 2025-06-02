@@ -1,5 +1,6 @@
 @font-face {
-    font-family: 'Figtree';
-    font-display: swap;
-    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+  font-family: 'Figtree';
+  font-display: swap;
+  src: url('../../assets/fonts/Figtree-VariableFont_wght.woff2') format('woff2'),
+    url('../../assets/fonts/Figtree-VariableFont_wght.woff') format('woff');
 }

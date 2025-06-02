@@ -1,8 +1,8 @@
 # Frontend Mentor - Blog preview card solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). 
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
 
-Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -14,8 +14,6 @@ Frontend Mentor challenges help you improve your coding skills by building reali
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -44,7 +42,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - CSS Utility-first approach
-
 
 ### What I learned
 
